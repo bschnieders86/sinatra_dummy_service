@@ -1,0 +1,9 @@
+name: dummy service
+team: some team
+project: Project X
+dependencies:
+  - name: Some Service 2
+  - name: Some Service 3
+external_dependencies:
+  - name: Legacy DB
+  - name: something else
