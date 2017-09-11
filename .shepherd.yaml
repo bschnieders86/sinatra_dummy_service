@@ -4,6 +4,6 @@ project: Project X
 dependencies:
   - name: Some Service 2
   - name: Some Service 3
-external_dependencies:
+external_resources:
   - name: Legacy DB
   - name: something else
