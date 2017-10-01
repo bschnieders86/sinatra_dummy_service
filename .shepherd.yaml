@@ -10,7 +10,7 @@ external_resources:
   - name: Legacy DB
   - name: something else
 
-verfifiers:
+verifiers:
   - smoke_tests:
       - name: Simple Check
         runner: http_ok_verification
