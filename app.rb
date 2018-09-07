@@ -4,15 +4,11 @@
 require 'sinatra'
 require 'erb'
 
-
-class App < Sinatra::Base
-
-  get '/' do
-    erb :index
-  end
-
-  get '/ping' do
-    'pong'
-  end
-
+get '/' do
+  erb :index
 end
+
+get '/ping' do
+  'pong'
+end
+
