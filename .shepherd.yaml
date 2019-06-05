@@ -1,6 +1,7 @@
 name: dummy service
-team: some team
-project: Project X
+team: customer team
+project: test
+description: This service really doesn't do a lot...
 
 dependencies:
   - name: Some Service 2
@@ -9,9 +10,3 @@ dependencies:
 external_resources:
   - name: Legacy DB
   - name: something else
-
-verifiers:
-  smoke_tests:
-    - name: Simple Check
-      runner: http_ok_verification
-      url: http://127.0.0.1/
