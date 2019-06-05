@@ -4,9 +4,9 @@ project: test
 description: This service really doesn't do a lot...
 
 dependencies:
-  - name: Some Service 2
-  - name: Some Service 3
+  - Some Service 2
+  - Some Service 3
 
 external_resources:
-  - name: Legacy DB
-  - name: something else
+  - Legacy DB
+  - something else
